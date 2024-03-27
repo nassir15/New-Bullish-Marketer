@@ -1,0 +1,9 @@
+.background{
+    background-image: url(img/pexels-amina-filkins-5424636.jpg);
+    background-size: 100vw 100vh;
+}
+.heading{
+    font-weight: bolder;
+    padding: 10px;
+    margin: 30px;
+}

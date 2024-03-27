@@ -1,17 +1,11 @@
-/**
-* Template Name: Bocor
-* Template URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  background-color: white;
+  color: black;
 }
 
 a {
@@ -168,13 +162,13 @@ h6 {
   padding: 4px 25px 6px 25px;
   margin-left: 30px;
   border-radius: 50px;
-  border: 2px solid orangered;
+  border: 2px solid black;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  background: orangered;
-  color: whitesmoke;
+  background: whitesmoke;
+  color: black;
 }
 
 .navbar .dropdown ul {
@@ -383,13 +377,13 @@ h6 {
 }
 
 #hero .btn-get-started {
-  color: #213b52;
+  color: black;
   border-radius: 50px;
   padding: 8px 35px 10px 35px;
-  border: 2px solid orangered;
+  border: 2px solid black;
   transition: all ease-in-out 0.3s;
   display: inline-block;
-  background: orangered;
+  background: white;
 }
 
 #hero .btn-get-started:hover {
