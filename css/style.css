@@ -380,7 +380,7 @@ h6 {
   color: black;
   border-radius: 50px;
   padding: 8px 35px 10px 35px;
-  border: 2px solid black;
+  
   transition: all ease-in-out 0.3s;
   display: inline-block;
   background: white;
@@ -389,6 +389,7 @@ h6 {
 #hero .btn-get-started:hover {
   background: transparent;
   color: whitesmoke;
+  border: 2px solid black;
 }
 
 @media (max-width: 991px) {
