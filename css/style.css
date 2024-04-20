@@ -1393,3 +1393,32 @@ section {
     text-align: ceneter;
   }
 }
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-1.2in);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1.5); /* Example of a cubic-bezier timing function */
+    animation-delay: 10s; /* Add a delay of 1 second before the animation resets */
+  }
+}
+/* Apply animation to the icon */
+.whatsapp-icon img {
+  animation: jump 1.5s ease infinite;
+  height: auto;
+  width: 45px;
+  position: fixed;
+  bottom: 10px;
+  right: 80px;
+
+}
